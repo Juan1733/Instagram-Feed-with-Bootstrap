@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0%;
+    padding: 2px 0;
+}
+.insta-sent {
+    margin: 0%;
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 150px;
+    color: grey;
+}
+.navbar {
+    background-color: #F3F3F3;
+}
+.btn {
+    padding: 2px 10px;
+    margin-left: 1080px;
+    margin-right: 0px;
+    position: absolute;
+}
+.new-post {
+    background-color: green;
+    color: white;
+}
+.fa-instagram {
+    font-size: 25px;
+    color: grey;
+    margin-left: 120px;
+}
+.posting {
+    height: fit-content;
+}
+.close {
+    position: absolute;
+    margin: 0%;
+    margin-left: 20rem;
+}
+.publish {
+    position: absolute;
+    margin: 0%;
+    margin-left: 25rem;
+    background-color: green;
+    color: white;
+}
+.publish-box {
+    height: 110px;
+}
+.modal-body {
+    height: 4rem;
+}
+.camera {
+    position: absolute;
+    margin: 0%;
+    margin-top: 1rem;
+}
+.location {
+    position: absolute;
+    margin: 0%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.fa-gear {
+    color: grey;
+}
+.fa-gear:hover {
+    color: black;
+}
+.ima {
+    border-top: 1px solid #E8E7E7;
+}
+.nav-pills {
+    margin-top: 50px;
+}
+.row {
+    --bs-gutter-x: 0.2rem;
+}
+.modal-backdrop {
+    z-index: 1;
+}
+.card {
+    margin: 0 auto;
+    width: 45rem;
+    height: fit-content;
+}
+.card-img {
+    width: 45rem;
+    height: 25rem;
+}
+.fa-heart {
+    color: grey;
+    font-size: 20px
+}
+.fa-ellipsis-vertical {
+    position: absolute;
+    margin-left: 27rem;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.card-body {
+    height: fit-content;
+}
+#caption {
+    margin: auto;
+}
+#settings {
+    position: absolute;
+    margin: 0px;
+    margin-left: 155px;
+    color: grey;
+}
+#pills-home-tab:focus {
+    color: white;
+    background-color: grey;
+}
+#pills-home-tab {
+    color: grey;
+    background-color: white;
+}
+#pills-profile-tab:focus {
+    color: white;
+    background-color: grey;
+}
+#pills-profile-tab {
+    color: grey;
+    background-color: white;
+}
+#pills-profile {
+    background-color: #E8E7E7;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: -12px;
+    margin-right: -24px;
+    height: fit-content;
+}
+#number-post {
+    position: absolute;
+    margin-left: 41rem;
+    color: grey;
+}
+#comment {
+    border: none;
+    color: grey;
+    margin-left: 1rem;
+    font-size: 17px;
+}
