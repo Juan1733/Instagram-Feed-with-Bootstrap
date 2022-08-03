@@ -26,10 +26,12 @@
             <i class="fa-brands fa-instagram"></i>
             <p class="insta-sent">Instagram</p>
 
-            <button type="button" class="btn new-post" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn new-post" data-bs-toggle="modal" data-bs-target="#exampleModal" style="z-index: 999999;">
                 Create a new post
             </button>
-              
+  
+            <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -47,10 +49,10 @@
                         <div class="modal-body">
                             <button type="button" class="btn btn-light close border border-dark" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
                             <button type="button" class="btn btn-light publish border border-dark" data-bs-dismiss="modal" aria-label="Close">Publish</button>
-                        </div>
+                        </div>                    
                     </div>
                 </div>
-            </div>
+            </div>              
 
             <div class="btn-group" id="settings">
                 <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="color: grey;">
@@ -63,10 +65,7 @@
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Log out</a></li>
                 </ul>
-            </div>
-
-
-            
+            </div>            
         </div>
     </nav>
 
